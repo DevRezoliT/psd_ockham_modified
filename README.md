@@ -48,9 +48,9 @@ You must have:
 -CMake (3.16 or newer) available in PATH
 
 Before running make_win.bat, verify which Visual Studio version is installed on your machine:
-cmake -G
+cmake -G.
 Then update the generator inside make_win.bat to match your installed version. For example:
--G "Visual Studio 18 2026"
+-G "Visual Studio 18 2026".
 If you are using a different version (e.g. Visual Studio 17 2022), replace the generator string accordingly.
 
  macOS / Linux
